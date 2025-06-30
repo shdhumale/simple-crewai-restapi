@@ -1,0 +1,25 @@
+http_get_task:
+  description: >
+    Execute an HTTP GET request to the URL: {url}.
+    The method for the request is {method}.
+  expected_output: >
+    The JSON response from the API. If the request fails, provide
+    a detailed error message.
+
+http_post_task:
+  description: >
+    Execute an HTTP POST request to the URL: {url}.
+    The method for the request is {method}.
+    The JSON data for the request body is: {data}
+  expected_output: >
+    The JSON response from the API after the POST operation. If the
+    request fails, provide a detailed error message.
+
+http_put_task:
+  description: >
+    Execute an HTTP PUT request to the URL: {url}.
+    The method for the request is {method}.
+    The JSON data for the request body is: {data}
+  expected_output: >
+    The JSON response from the API after the PUT operation. If the
+    request fails, provide a detailed error message.

@@ -1,0 +1,4 @@
+crewai
+requests
+dotenv
+crewai[tools]
